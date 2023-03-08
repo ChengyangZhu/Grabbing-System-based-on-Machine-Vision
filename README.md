@@ -10,4 +10,10 @@ There are multiple coordinate systems in a robot system, so the unification of c
 ### Image Transformation
 The projection relationship is shown in the following figure.
 
-<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/113228076/223844749-ec5ee961-b7d8-4f7f-89d8-9f575c2cc4d9.jpg)" width="100" height="100">
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/113228076/223846542-7a62bcda-1884-47a8-8204-5e3735c4f53a.jpg">
+</p>
+
+The coordinates in image plane, is part of the camera coordinate system, and the key difference is the z-axis coordinate, which is also called depth information. The transformation matrix between the pixel plane and the camera coordinate system is called intrinsic parameters, ${\left\lbrack \matrix{f_x & 0 & c_x \cr 0 & f_y & c_y \cr 0 & 0 & 1} \right\rbrack}$.\
+where: $f_x$ and $f_y$ are the scale factors between the image plane and pixel plane\
+       $c_x$ and $c_y$ are the pixel offset between the image plane and pixel plane
