@@ -32,3 +32,4 @@ The projection relationship is shown in the following figure.
 The coordinates in image plane, is part of the camera coordinate system, and the key difference is the z-axis coordinate, which is also called depth information. The transformation matrix between the pixel plane and the camera coordinate system is called intrinsic parameters, ${\left\lbrack \matrix{f_x & 0 & c_x \cr 0 & f_y & c_y \cr 0 & 0 & 1} \right\rbrack}$.\
 where: $f_x$ and $f_y$ are the scale factors between the image plane and pixel plane\
        $c_x$ and $c_y$ are the pixel offset between the image plane and pixel plane
+After calibration, the intrinsic matrix is ${\left\lbrack \matrix{625.5708 & 0 & 321.6519 \cr 0 & 625.9031 & 231.1601 \cr 0 & 0 & 1} \right\rbrack}$.
